@@ -22,7 +22,7 @@ Interactive mode using preloaded Tarland TSA hydrological and topographic data t
 
 **Purpose:** Learning, demonstration, training, and introductory exploration of TSA design and runoff attenuation performance.
 
-📄 **Full Mode 1 Documentation → [Mode1_Educational_Tool/Mode1_README.md](Mode1_README.md)**  
+📄 **Full Mode 1 Documentation → [Mode1_Educational_Tool/Mode1_README.md](Mode1/README.md)**  
 
 
 ### **Mode 2 — Optimal Design (User-Defined Inputs)**
