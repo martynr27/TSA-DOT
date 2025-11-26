@@ -10,34 +10,31 @@ TSA-DOT addresses this gap by simulating TSA performance across multiple design 
 - Peak Flow Reduction
 - Change in Peak Flow Travel Time
 
-Users can input site-specific data—including design storm events, local topography and storage potential, outlet pipe dimensions, and soil infiltration rates—making TSA-DOT suitable for designing new TSAs or retrofitting existing features. Metric weightings can be customised to reflect local priorities, supporting evidence-based and scalable TSA design decisions.
+Users can input site-specific data, including design storm events, local topography (depth to volume relationships), outlet pipe configurations, and soil infiltration rates, making TSA-DOT suitable for designing new TSAs or retrofitting existing ones. Metric weightings can be customised to reflect local priorities.
+
+---
 
 ## 🔧 Modes
 
 ### **Mode 1 — Educational Tool (Built-in Example Data)**
 
-Interactive tool using Tarland TSA data for learning and demonstration.
-
-📄 **Full Mode 1 Documentation → [Mode1/README.md](Mode1/README.md)**  
-
-Uses built-in hydrological and topographic data from a Tarland TSA example to explore how design parameters affect flood-mitigation performance. Ideal for demonstrations and introductory use.
-See the full Mode 1 documentation: TSA-DOT_Mode1/README_Mode1.md
+Interactive mode using preloaded Tarland TSA hydrological and topographic data to demonstrate how design parameters influence TSA runoff attenuation performance.
 
 **Purpose:** Learning, demonstration, training, and introductory exploration of TSA design and runoff attenuation performance.
 
+📄 **Full Mode 1 Documentation → [Mode1/README.md](Mode1/README.md)**  
+
+
 ### **Mode 2 — Optimal Design (User-Defined Inputs)**
 
-Mode 2 provides full customisation for operational design work. Users can:
-- Upload site-specific design storm events (rainfall or inflow time series)
-- Derive storage capacity from local topography (e.g., LiDAR DEM depth–volume curves)
-- Define ranges for TSA height, storage volume, and outlet pipe diameter and height
-- Specify soil infiltration rates
-- Prioritise metrics with user-defined weightings
-- Identify the optimal TSA design across all parameter combinations
+Full optimisation mode using user-supplied storm events, topographic storage curves, and design parameter ranges. TSA-DOT evaluates all combinations and identifies the most effective TSA design based on the five metrics and user-defined weightings.
 
-**Purpose:** Designing new TSAs, retrofitting existing TSAs, and exploring TSA flood mitigation effectiveness.
+**Purpose:** Designing and optimising new TSAs or retrofitting existing TSAs using site-specific data.
+
+📄 **Full Mode 2 Documentation → [Mode2/README.md](Mode2/README.md)**  
+
+---
 
 ## How to Cite
 
 If you use TSA-DOT in your research, design work, teaching, or reporting, please cite:
-
