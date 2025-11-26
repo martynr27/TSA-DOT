@@ -12,8 +12,6 @@ TSA-DOT addresses this gap by simulating TSA performance across multiple design 
 
 Users can input site-specific data—including design storm events, local topography and storage potential, outlet pipe dimensions, and soil infiltration rates—making TSA-DOT suitable for designing new TSAs or retrofitting existing features. Metric weightings can be customised to reflect local priorities, supporting evidence-based and scalable TSA design decisions.
 
----
-
 ## 🔧 Modes
 
 ### **Mode 1 — Educational Tool (Built-in Example Data)**
@@ -23,8 +21,6 @@ Mode 1 uses built-in data from the Tarland TSA (northeast Scotland), an agricult
 - Allows users to adjust TSA height and storage, outlet pipe diameter and height, and soil infiltration rate to observe real-time impacts on flood mitigation metrics.
 
 **Purpose:** Learning, demonstration, training, and introductory exploration of TSA design and runoff attenuation performance.
-
----
 
 ### **Mode 2 — Optimal Design (User-Defined Inputs)**
 
@@ -37,8 +33,6 @@ Mode 2 provides full customisation for operational design work. Users can:
 - Identify the optimal TSA design across all parameter combinations
 
 **Purpose:** Designing new TSAs, retrofitting existing TSAs, and exploring TSA flood mitigation effectiveness.
-
----
 
 ## How to Cite
 
