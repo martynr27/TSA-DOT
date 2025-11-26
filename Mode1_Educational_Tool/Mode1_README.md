@@ -6,12 +6,16 @@ This mode uses built-in hydrological and topographic data from the Tarland TSA (
 
 Mode 1 is ideal for learning, training, demonstration, and understanding TSA functioning and performance during storm events.
 
+---
+
 ## Purpose
 Use Mode 1 to:
 -	Experiment with key TSA design parameters
 -	Understand how TSAs attenuate runoff during storm events
 -	See how design decisions affect flood-mitigation metrics
 -	Test designs against future increased runoff scenarios
+
+---
 
 ## Built-In Data
 Mode 1 includes:
@@ -21,6 +25,8 @@ Mode 1 includes:
 -	Tarland bund topographic data
     - 1-m LiDAR DEM used to generate TSA geometry (bund height vs storage)
 
+---
+
 ## User-Adjustable TSA Parameters
 Users can dynamically modify:
 -	Maximum TSA height / storage capacity
@@ -29,6 +35,8 @@ Users can dynamically modify:
 -	Soil infiltration rate
 
 These changes update plots and metrics in real time.
+
+---
 
 ## Outputs
 
@@ -62,8 +70,9 @@ Difference between peak inflow and peak quick TSA outflow, indicating the TSA’
 #### **Change in Peak Flow Travel Time**
 Delay between inflow and quick TSA outflow peaks, showing how the TSA shifts peak timing to mitigate downstream flooding.
 
+---
 
-# How to Run Mode 1
+## How to Run Mode 1
 1.	Download the TSA_DOT_Mode1_Rcode
 2.	Open the script in RStudio
 3.	Run all code:
