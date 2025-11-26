@@ -16,9 +16,8 @@ Users can input site-specific data—including design storm events, local topogr
 
 ### **Mode 1 — Educational Tool (Built-in Example Data)**
 
-Mode 1 uses built-in data from the Tarland TSA (northeast Scotland), an agricultural soil bund intercepting near-surface runoff.
-- Includes the October 2023 storm and a 40% increased inflow scenario to explore potential future extremes.
-- Allows users to adjust TSA height and storage, outlet pipe diameter and height, and soil infiltration rate to observe real-time impacts on flood mitigation metrics.
+Uses built-in hydrological and topographic data from a Tarland TSA example to explore how design parameters affect flood-mitigation performance. Ideal for demonstrations and introductory use.
+See the full Mode 1 documentation: TSA-DOT_Mode1/README_Mode1.md
 
 **Purpose:** Learning, demonstration, training, and introductory exploration of TSA design and runoff attenuation performance.
 
