@@ -16,6 +16,10 @@ Users can input site-specific data—including design storm events, local topogr
 
 ### **Mode 1 — Educational Tool (Built-in Example Data)**
 
+Interactive tool using Tarland TSA data for learning and demonstration.
+
+📄 **Full Mode 1 Documentation → [Mode1/README.md](Mode1/README.md)**  
+
 Uses built-in hydrological and topographic data from a Tarland TSA example to explore how design parameters affect flood-mitigation performance. Ideal for demonstrations and introductory use.
 See the full Mode 1 documentation: TSA-DOT_Mode1/README_Mode1.md
 
