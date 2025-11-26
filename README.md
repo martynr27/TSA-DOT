@@ -31,7 +31,7 @@ Full optimisation mode using user-supplied storm events, topographic storage cur
 
 **Purpose:** Designing and optimising new TSAs or retrofitting existing TSAs using site-specific data.
 
-📄 **Full Mode 2 Documentation → [Mode2/README.md](Mode2/README.md)**  
+📁 **Mode 2 Folder → [Mode2_Optimal_Design](Mode2_Optimal_Design/)**  
 
 ---
 
