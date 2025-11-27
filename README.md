@@ -2,7 +2,7 @@
 
 The Temporary Storage Area Design Optimisation Tool (TSA-DOT) is an R-based decision support tool for designing and optimising Temporary Storage Areas (TSAs) used in natural flood management. TSAs attenuate near-surface runoff during storm events, contributing to flood mitigation. However, guidance on how to optimise TSA designs for site-specific conditions is limited.
 
-TSA-DOT addresses this gap by simulating TSA performance across multiple design combinations and evaluating effectiveness using five flood mitigation metrics:
+TSA-DOT addresses this gap by simulating the performance of multiple TSA design combinations (height and storage, outlet pipe diameter and height, soil infiltration) for a design storm event and evaluating effectiveness using five flood mitigation metrics:
 
 - Storage Efficiency Index (SEI)
 - Mean Retention Time
@@ -29,7 +29,7 @@ Interactive mode using preloaded Tarland TSA hydrological and topographic data t
 
 ### **Mode 2 — Optimal Design (User-Defined Inputs)**
 
-Full optimisation mode using user-supplied storm events, topographic storage curves, and design parameter ranges. TSA-DOT evaluates all combinations and identifies the most effective TSA design based on the five metrics and user-defined weightings.
+Full optimisation mode using user-supplied storm events, topographic depth-volume curves, and design parameter ranges. TSA-DOT evaluates all combinations and identifies the most effective TSA design based on the five metrics and user-defined weightings.
 
 **Purpose:** Designing and optimising new TSAs or retrofitting existing TSAs using site-specific data.
 
