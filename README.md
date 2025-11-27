@@ -45,7 +45,7 @@ Full optimisation mode using user-supplied storm events, topographic depth-volum
 
 **Full Tarland Site Description** — background and characteristics for the Tarland TSA used as the built-in example dataset in TSA-DOT.
 
-📄 [View Tarland Site Description](../docs/Tarland_Site_Description.md)
+📄 [View Tarland Site Description](docs/Tarland_Site_Description.md)
 
 ---
 
