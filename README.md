@@ -12,6 +12,9 @@ TSA-DOT addresses this gap by simulating the performance of multiple TSA design 
 
 Users can input site-specific data such as design storm events, depth–volume curves, outlet configuration, and soil infiltration rates. Metric weightings can be customised to reflect local priorities, making TSA-DOT suitable for designing new TSAs or retrofitting existing ones.
 
+<img width="3959" height="2475" alt="TSADOT_Workflow" src="https://github.com/user-attachments/assets/b1edad39-ae24-4cad-8abe-157bab244070" />
+*(Roberts et al., 2025)*
+
 For more details on the underlying methodology, see our manuscript:
 
 ---
