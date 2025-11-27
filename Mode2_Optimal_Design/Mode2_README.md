@@ -71,3 +71,12 @@ Mode 2 produces:
 -	Summary table of TSA parameters and flood-mitigation metrics
 -	CSV exports for further analysis or reporting
 
+---
+
+## How to Run Mode 2
+1. Download the script:  
+   📄 [`TSA_DOT_Mode2.R`](./TSA_DOT_Mode2.R)
+2. Open the script in RStudio  
+3. Run all code:  
+   **Windows:** Ctrl + A → Ctrl + Enter  
+   **Mac:** Cmd + A → Cmd + Enter
