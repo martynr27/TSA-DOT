@@ -25,9 +25,6 @@ Mode 1 includes:
 -	Tarland bund topographic data
     - 1-m LiDAR DEM used to generate TSA geometry (bund height vs storage)
 
-<img width="491" height="369" alt="Tarland_bund" src="https://github.com/user-attachments/assets/10a72219-2cbc-4e13-86eb-ff34140605f2" />
-
-
 ---
 
 ## User-Adjustable TSA Parameters
@@ -76,7 +73,7 @@ Delay between inflow and quick TSA outflow peaks, showing how the TSA shifts pea
 ---
 
 ## How to Run Mode 1
-1.	Download the TSA_DOT_Mode1_Rcode
+1.	[📄 **Download TSA_DOT_Mode1_Rcode.R**](Mode1_Educational_Tool/TSA_DOT_Mode1_Rcode.R)
 2.	Open the script in RStudio
 3.	Run all code:
 **Windows:** Ctrl + A → Ctrl + Enter
