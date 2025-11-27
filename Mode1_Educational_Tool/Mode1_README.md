@@ -73,7 +73,9 @@ Delay between inflow and quick TSA outflow peaks, showing how the TSA shifts pea
 ---
 
 ## How to Run Mode 1
-1.	[📄 **Download TSA-DOT_Mode1_Rcode.R**](Mode1_Educational_Tool/TSA_DOT_Mode1_Rcode.R)
+## How to Run Mode 1
+1. Download the script:  
+   [**TSA-DOT Mode 1 script (R)**](Mode1_Educational_Tool/tsa_dot_mode1.R)
 2.	Open the script in RStudio
 3.	Run all code:
 **Windows:** Ctrl + A → Ctrl + Enter
