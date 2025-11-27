@@ -25,6 +25,9 @@ Mode 1 includes:
 -	Tarland bund topographic data
     - 1-m LiDAR DEM used to generate TSA geometry (bund height vs storage)
 
+<img width="491" height="369" alt="Tarland_bund" src="https://github.com/user-attachments/assets/10a72219-2cbc-4e13-86eb-ff34140605f2" />
+
+
 ---
 
 ## User-Adjustable TSA Parameters
