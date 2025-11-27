@@ -19,12 +19,16 @@ Use Mode 1 to:
 
 ## Built-In Data
 Mode 1 includes:
--	Two inflow scenarios
-	- October 2023 Storm Babet (observed)
-    - +40% inflow scenario (future extreme storm)
--	Tarland bund topographic data
-    - 1-m LiDAR DEM used to generate TSA geometry (bund height vs storage)
+- **Tarland bund TSA**
+  - An edge-of-field soil bund designed to manage muddy agricultural surface runoff and reduce downstream impacts.  
+  - Positioned to intercept convergent near-surface runoff flow pathways.
+  - Site-specific depth–volume relationships for TSA geometry derived from a 1 m LiDAR DEM.
+  - **More info:**  
+    👉 [Full Tarland Site Description](../docs/Tarland_TSA_Site_Info.md)
 
+- **Two storm events (near-surface runoff scenarios)**
+  - October 2023 *Storm Babet* (observed)
+  - +40% inflow scenario (future extreme storm)
 ---
 
 ## User-Adjustable TSA Parameters
@@ -73,11 +77,9 @@ Delay between inflow and quick TSA outflow peaks, showing how the TSA shifts pea
 ---
 
 ## How to Run Mode 1
-## How to Run Mode 1
 1. Download the script:  
-📄 **Mode 1 Script → [TSA_DOT_Mode1.R](Mode1_Educational_Tool/TSA_DOT_Mode1.R)**
-2.	Open the script in RStudio
-3.	Run all code:
-**Windows:** Ctrl + A → Ctrl + Enter
-**Mac:** Cmd + A → Cmd + Enter
-
+   👉 [`TSA_DOT_Mode1.R`](./TSA_DOT_Mode1.R)
+2. Open the script in RStudio  
+3. Run all code:  
+   **Windows:** Ctrl + A → Ctrl + Enter  
+   **Mac:** Cmd + A → Cmd + Enter
