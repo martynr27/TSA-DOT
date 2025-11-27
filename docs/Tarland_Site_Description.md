@@ -40,7 +40,7 @@ Optimising features like the Tarland bund, representative of small TSAs that cou
 
 <img width="1939" height="1641" alt="TarlandBund_DesignVolumes" src="https://github.com/user-attachments/assets/476ed639-41f9-47f8-a0ab-485c91ebc96c" />
 
-*Figure 2: Potential TSA wetted footprints corresponding to each maximum TSA volume scenario at the Tarland bund (Aerial imagery © Getmapping plc) (Roberts et al., 2025b).
+*Figure 2: Potential TSA wetted footprints corresponding to each maximum TSA volume scenario at the Tarland bund (Aerial imagery © Getmapping plc) (Roberts et al., 2025b).*
 
 ---
 
