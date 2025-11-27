@@ -39,22 +39,23 @@ Users then:
 
 ---
 
-## 📊 Flood-Metric Weighting & Interpretation
+## 🛠️ Flood-Metric Weighting & Interpretation
 
 After simulations are complete, users can:
 -	Adjust metric weightings to reflect priorities (e.g., shorter retention time for arable land)
 -	View overall effectiveness scores
 -	Inspect any design using the Design ID selector
 
+
 **⚠ Important Note on Comparability**
 The overall effectiveness score is only comparable within the same simulation.
+- Overall effectivess scores are normalised and ranked across the tested designs. Therefore, a simulation with 50 designs vs. another with 100 designs will produce effectiveness scores that cannot be compared.
+- **Always compare designs within a single run.**
 
-Overall effectivess scores are normalised and ranked across the tested designs. Therefore, a simulation with 50 designs vs. another with 100 designs will produce effectiveness scores that cannot be compared.
+---
 
-**Always compare designs within a single run.**
+## 📐 Flood-Mitigation Metrics Used in Mode 2
 
-📐 **Flood-Mitigation Metrics Used in Mode 2**
-Mode 2 evaluates each TSA design using the same five metrics as Mode 1:
 1.	Storage Efficiency Index (SEI)
 2.	Mean Retention Time
 3.	Peak Flow Attenuation
@@ -63,7 +64,7 @@ Mode 2 evaluates each TSA design using the same five metrics as Mode 1:
 
 ---
 
-## 📦 Outputs
+## 📊 Outputs
 
 Mode 2 produces:
 -	Overall effectiveness plot comparing all design combinations
@@ -73,7 +74,7 @@ Mode 2 produces:
 
 ---
 
-## How to Run Mode 2
+## ▶️ How to Run Mode 2
 1. Download the script:  
    📄 [`TSA_DOT_Mode2.R`](./TSA_DOT_Mode2.R)
 2. Open the script in RStudio  
