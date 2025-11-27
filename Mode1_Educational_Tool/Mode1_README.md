@@ -24,7 +24,7 @@ Mode 1 includes:
   - Positioned to intercept convergent near-surface runoff flow pathways.
   - Site-specific depth–volume relationships for TSA geometry derived from a 1 m LiDAR DEM.
   - **More info:**  
-    📄 [Full Tarland Site Description](../docs/Tarland_TSA_Site_Info.md)
+    📄 [Full Tarland Site Description](../docs/Tarland_Site_Description.md)
 
 - **Two storm events (near-surface runoff scenarios)**
   - October 2023 *Storm Babet* (observed)
