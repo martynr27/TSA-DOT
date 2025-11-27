@@ -76,7 +76,7 @@ Mode 2 produces:
 
 ## ▶️ How to Run Mode 2
 1. Download the script:  
-   📄 [`TSA_DOT_Mode2.R`](./TSA_DOT_Mode2.R)
+📄 [`TSA_DOT_Mode2.R`](./Mode2_Optimal_Design/TSA_DOT_Mode2.R)
 2. Open the script in RStudio  
 3. Run all code:  
    **Windows:** Ctrl + A → Ctrl + Enter  
