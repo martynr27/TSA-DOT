@@ -24,7 +24,7 @@ Mode 1 includes:
   - Positioned to intercept convergent near-surface runoff flow pathways.
   - Site-specific depth–volume relationships for TSA geometry derived from a 1 m LiDAR DEM.
   - **More info:**  
-    👉 [Full Tarland Site Description](../docs/Tarland_TSA_Site_Info.md)
+    📄 [Full Tarland Site Description](../docs/Tarland_TSA_Site_Info.md)
 
 - **Two storm events (near-surface runoff scenarios)**
   - October 2023 *Storm Babet* (observed)
@@ -78,7 +78,7 @@ Delay between inflow and quick TSA outflow peaks, showing how the TSA shifts pea
 
 ## How to Run Mode 1
 1. Download the script:  
-   👉 [`TSA_DOT_Mode1.R`](./TSA_DOT_Mode1.R)
+   📄 [`TSA_DOT_Mode1.R`](./TSA_DOT_Mode1.R)
 2. Open the script in RStudio  
 3. Run all code:  
    **Windows:** Ctrl + A → Ctrl + Enter  
