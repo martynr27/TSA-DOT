@@ -8,7 +8,7 @@ Mode 1 is ideal for learning, training, demonstration, and understanding TSA fun
 
 ---
 
-## Purpose
+## 🎯 Purpose
 Use Mode 1 to:
 -	Experiment with key TSA design parameters
 -	Understand how TSAs attenuate runoff during storm events
@@ -17,7 +17,7 @@ Use Mode 1 to:
 
 ---
 
-## Built-In Data
+## 🧰 Built-In Data
 Mode 1 includes:
 - **Tarland bund TSA**
   - An edge-of-field soil bund designed to manage muddy agricultural surface runoff and reduce downstream impacts.  
@@ -31,7 +31,7 @@ Mode 1 includes:
   - +40% inflow scenario (future extreme storm)
 ---
 
-## User-Adjustable TSA Parameters
+## 🛠️ User-Adjustable TSA Parameters
 Users can dynamically modify:
 -	Maximum TSA height / storage capacity
 -	Outlet pipe diameter
@@ -42,7 +42,7 @@ These changes update plots and metrics in real time.
 
 ---
 
-## Outputs
+## 📊 Outputs
 
 ### **1. Time-Series Plot (3 panels)**
 - Runoff attenuation: near-surface runoff (Qin) vs quick TSA outflow (Qout_quick).  
@@ -76,7 +76,7 @@ Delay between inflow and quick TSA outflow peaks, showing how the TSA shifts pea
 
 ---
 
-## How to Run Mode 1
+## ▶️ How to Run Mode 1
 1. Download the script:  
    📄 [`TSA_DOT_Mode1.R`](./TSA_DOT_Mode1.R)
 2. Open the script in RStudio  
