@@ -6,6 +6,8 @@ This mode uses built-in hydrological and topographic data from the Tarland TSA (
 
 Mode 1 is ideal for learning, training, demonstration, and understanding TSA functioning and performance during storm events.
 
+## Reference
+
 Roberts, M. T., J. Geris, P. F. Quinn, P. D. Hallett, and M. E. Wilkinson. 2025. “ TSA-DOT: A Decision Support Tool for Designing and Optimising Nature-Based Solutions for Flood Mitigation.” Journal of Flood Risk Management 18, no. 4: e70162. https://doi.org/10.1111/jfr3.70162.
 
 ---
