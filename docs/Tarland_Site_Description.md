@@ -47,5 +47,7 @@ Optimising features like the Tarland bund, representative of small TSAs that cou
 ## References
 Roberts, M. T., Wilkinson, M. E., Geris, J., & Hallett, P. D. (2025a). Spatial and Temporal Variations in Arable Soil Structure and Hydrology Affect the Functioning of Nature‐Based Solutions for Flood Mitigation. Soil Use and Management, 41(3), e70129. https://doi.org/10.1111/sum.70129
 
+Roberts, M. T., J. Geris, P. F. Quinn, P. D. Hallett, and M. E. Wilkinson. (2025b). TSA-DOT: A Decision Support Tool for Designing and Optimising Nature-Based Solutions for Flood Mitigation. Journal of Flood Risk Management 18(4), e70162. https://doi.org/10.1111/jfr3.70162.
+
 
 
