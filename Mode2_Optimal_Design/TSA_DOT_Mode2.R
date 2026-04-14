@@ -434,128 +434,6 @@ calculate_flood_metrics <- function(simulations, CA, threshold) {
   )
 }
 
-# calculate_flood_metrics <- function(simulations, CA, threshold) {
-#   flood_metrics.fn <- function(df, CA, threshold) {
-#     
-#     peak_Qin_time <- df$date_time[which.max(df$Qin)]
-#     peak_Qout_time <- df$date_time[which.max(df$Qout_quick)]
-#     
-#     ## Criterion 1 - Storage Efficiency Index (SEI) ##
-#     # Define the modified SEI function
-#     SEI.fn <- function(df) {
-#       max_overflow <- max(df$overflow_m3, na.rm = TRUE)
-#       max_storage <- max(df$S, na.rm = TRUE)
-#       maxVol <- df$maxVol[1]
-#       
-#       # Calculate the storage utilisation component
-#       storage_utilisation <- (maxVol - max_storage) / maxVol
-#       
-#       # Calculate the overflow component using a logarithmic scale
-#       overflow_component <- log1p(max_overflow) / log1p(maxVol)
-#       
-#       # Combine the components to calculate SEI
-#       SEI <- round(storage_utilisation - overflow_component, 3)
-#       
-#       return(SEI)
-#     }
-#     
-#     # Example usage with a dataframe df
-#     SEI <- SEI.fn(df)
-#     
-#     
-#     
-#     ## Criterion 2 - Mean retention time & end volume ##
-#     calculate_retention_time <- function(df, threshold) {
-#       # Ensure data is sorted by date_time
-#       df <- df[order(df$date_time), ]
-#       
-#       # Identify periods where S > threshold
-#       above_threshold <- which(df$S > threshold)
-#       
-#       # If no values exceed the threshold, return NA and 0 for end_volume
-#       if (length(above_threshold) == 0) {
-#         return(list(mean_retention_time = NA, end_volume = 0))
-#       }
-#       
-#       # Find the start and end times of the period above threshold
-#       start_time <- df$date_time[min(above_threshold)]
-#       end_time <- df$date_time[max(above_threshold)]
-#       
-#       # Calculate retention times
-#       retention_times <- difftime(df$date_time[above_threshold], start_time, units = "hours")
-#       
-#       # Calculate mean retention time
-#       mean_retention_time <- round(mean(as.numeric(retention_times)), 1)
-#       
-#       # Check if S returns to below the threshold
-#       returns_below_threshold <- any(df$S[max(above_threshold):nrow(df)] < threshold)
-#       
-#       # Calculate end volume
-#       end_volume <- round(df$S[nrow(df)], 0)
-#       
-#       if (!returns_below_threshold) {
-#         return(list(mean_retention_time = NA, end_volume = end_volume))
-#       } else {
-#         return(list(mean_retention_time = mean_retention_time, end_volume = end_volume))
-#       }
-#     }
-#     
-#     retention_df <- calculate_retention_time(df = df, threshold = threshold)
-#     
-#     mean_retention_time <- retention_df$mean_retention_time
-#     
-#     end_volume <- retention_df$end_volume
-#     
-#     
-#     ## Criterion 3 - Peak floodwater attenuation +/- 2h ##
-#     subset_df <- df %>%
-#       filter(date_time >= (peak_Qin_time - 2 * 3600) & date_time <= (peak_Qin_time + 2 * 3600))
-#     
-#     CA_km2 <- CA / 1e6
-#     
-#     Qp_attenuation <- round((sum(subset_df$Qin, na.rm = TRUE) - sum(subset_df$Qout, na.rm = TRUE) + sum(subset_df$dS, na.rm = TRUE)) / CA_km2, 2)
-#     
-#     
-#     ## Criterion 4 - Peak flow reduction ##
-#     peak_Qin <- max(df$Qin, na.rm = TRUE)
-#     peak_Qout <- max(df$Qout_quick, na.rm = TRUE)
-#     
-#     Qp_reduction <- round(((peak_Qin - peak_Qout) / peak_Qin) * 100, 1)
-#     
-#     
-#     ## Criterion 5 - Qp Travel time ##
-#     Qp_travel_time <- as.numeric(difftime(peak_Qout_time, peak_Qin_time, units = "hours"))
-#     Qp_travel_time <- ifelse(Qp_reduction == 100, NA, Qp_travel_time)
-#     
-#     
-#     ## TSA effectiveness DF ##
-#     scenario_id <- df$scenario_id[1]
-#     maxHeight <- df$maxHeight[1]
-#     maxVol <- df$maxVol[1]
-#     pipeDiameter <- df$pipeDiameter[1]
-#     pipeHeight <- df$pipeHeight[1]
-#     soil_infiltration <- df$soil_infiltration[1]
-#     
-#     
-#     flood_metric_df <- 
-#       data.frame(scenario_id, maxHeight, maxVol, pipeDiameter, pipeHeight, soil_infiltration,
-#                  SEI, mean_retention_time, end_volume, Qp_attenuation, Qp_reduction, Qp_travel_time)
-#     
-#     return(flood_metric_df)
-#   }
-#   
-#   bind_rows(
-#     lapply(simulations, function(df) {
-#       flood_metrics.fn(
-#         df = df,
-#         CA = CA,
-#         threshold = threshold
-#       )
-#     }),
-#     .id = "scenario_id"
-#   )
-# }
-
 
 # Scaling function --------------------------------------------------------
 
@@ -1661,7 +1539,6 @@ server <- function(input, output, session) {
     }
   })
   
-  ####################################
   hourly_results <- reactive({
     req(simulation_results(), CA())
     
